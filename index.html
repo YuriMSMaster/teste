@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adicionar e Tirar Nomes</title>
+	<script src="main.js"></script>
+</head>
+<body>
+	<h1>Adicionar e Tirar Nomes</h1>
+	
+	<label for="novo-nome">Novo Nome:</label>
+	<input type="text" id="novo-nome">
+	<button onclick="adicionarNome()">Adicionar</button>
+
+	<table id="tabela-nomes">
+		<thead>
+			<tr>
+				<th>Nome</th>
+				<th>Ações</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!-- as linhas serão adicionadas aqui pela função atualizarTabela() -->
+		</tbody>
+	</table>
+</body>
+</html>
